@@ -45,7 +45,7 @@ document.addEventListener('keydown',  () => {
     document.addEventListener('keyup',  () => {
         funTop.style.transform = "scale(1)"; 
       })
-//Slect (1)
+//Select (1)
 document.querySelector('body').addEventListener('select', (e)=>{
     e.target.style.color = 'red'
 });
